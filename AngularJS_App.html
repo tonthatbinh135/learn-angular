@@ -10,7 +10,9 @@
         <br> Full Name:{{firstName +" "+lastName}}
     </div>
     <script>
+        //Angular module
         var app = angular.module('myApp',[]);
+        //Angular controller
         app.controller('myCtrl',function($scope){
             $scope.firstName="That Binh";
             $scope.lastName="Ton";
